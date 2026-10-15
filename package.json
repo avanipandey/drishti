@@ -1,0 +1,13 @@
+{
+  "name": "drishti",
+  "version": "1.0.0",
+  "description": "Drishti (दृष्टि): a small, dependency-free search engine in Node.js",
+  "bin": { "drishti": "bin/drishti.js" },
+  "scripts": {
+    "seed": "node bin/drishti.js seed",
+    "crawl": "node bin/drishti.js crawl",
+    "start": "node bin/drishti.js serve"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
